@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-container {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax {
+  background-image: url('https://picsum.photos/2000');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateZ(0);
+  z-index: -1;
+}
+
+.content {
+  height: 100vh; /* Adjust the height based on your content */
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
